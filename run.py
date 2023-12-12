@@ -60,7 +60,8 @@ def run_on_prompt(prompt: List[str],
                     smooth_attentions=config.smooth_attentions,
                     sigma=config.sigma,
                     kernel_size=config.kernel_size,
-                    sd_2_1=config.sd_2_1)
+                    sd_2_1=config.sd_2_1
+                    )
     image = outputs.images[0]
     return image
 
